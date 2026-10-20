@@ -1,0 +1,6 @@
+Hot Bottom Smoker (formerly SmokeWatch)
+
+Protocol.kt, RpcLink.kt, PitBossBle.kt and CloudLink.kt are ports of protocol code from pytboss
+(https://github.com/dknowles2/pytboss), Copyright its authors, licensed under
+the Apache License 2.0 (see LICENSE-pytboss.txt). Modified: rewritten in Kotlin
+for Android.
