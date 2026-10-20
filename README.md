@@ -6,7 +6,7 @@ An Android app for monitoring and controlling **Pit Boss vertical pellet smokers
 
 **[Download the latest version (HotBottomSmoker.apk)](https://github.com/GillSLOW/HotBottomSmoker/releases/latest/download/HotBottomSmoker.apk)**
 
-Older versions are on the [Releases page](https://github.com/GillSLOW/HotBottomSmoker/releases).
+Older versions are on the [Releases page](https://github.com/GillSLOW/HotBottomSmoker/releases). If the link above doesn't work, use this direct link: [HotBottomSmoker.apk](https://github.com/GillSLOW/HotBottomSmoker/raw/main/apk/HotBottomSmoker.apk)
 
 ## Installing (Android only)
 

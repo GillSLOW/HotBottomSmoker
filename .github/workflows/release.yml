@@ -1,0 +1,24 @@
+name: Publish release
+# Whenever a new apk/HotBottomSmoker.apk is pushed, publish it on the Releases page.
+# The newest one is always at /releases/latest/download/HotBottomSmoker.apk
+on:
+  push:
+    branches: [main]
+    paths: ["apk/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          LABEL=$(head -1 apk/VERSION 2>/dev/null || echo "build")
+          gh release create "release-${{ github.run_number }}" apk/HotBottomSmoker.apk \
+            --title "Hot Bottom Smoker – $LABEL" \
+            --notes "Install on an Android phone. See the README for steps. Updates install over the old version and keep your data." \
+            --target "${{ github.sha }}" --latest
