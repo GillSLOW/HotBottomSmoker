@@ -34,6 +34,10 @@ Requires Android 8.0 or newer. This is an Android app, so it won't run on an iPh
 - Outside weather at the smoker, cook history with CSV export, pellet estimates, and hours tracking for parts
 - Shows the shutdown cycle in progress, even though the smoker's own screen goes dark
 
+## Reporting a problem
+
+In the app, go to **Settings → Troubleshooting → Send to developer (GitHub)**. It saves a debug report, then opens a new issue here with your phone, app version and smoker model filled in. Say what happened, attach the saved report, and tap **Create**. You'll need a free GitHub account. Issues are public, but the report blanks out passwords, location and most of the cloud ID.
+
 ## Notes
 
 - Supported models: PBV4NX (130–420°F, 3 probes) and PB1285KC (Smoke 180°F – High 500°F, 2 probes, light switch). Pick yours when you choose the smoker, or later in Settings. Other Pit Boss models may connect but aren't supported yet.
