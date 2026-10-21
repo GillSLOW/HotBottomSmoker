@@ -1,6 +1,6 @@
 # Hot Bottom Smoker
 
-An Android app for monitoring and controlling **Pit Boss vertical pellet smokers** (built and tested for the PBV4NX). It's a personal, unofficial replacement for Pit Boss's Smoke IT app and has no connection to Pit Boss or Dansons.
+An Android app for monitoring and controlling **Pit Boss pellet smokers**: the PBV4NX vertical (tested) and the PB1285KC grill (new, not yet tested on real hardware). It's a personal, unofficial replacement for Pit Boss's Smoke IT app and has no connection to Pit Boss or Dansons.
 
 ## ⬇️ Download
 
@@ -36,6 +36,6 @@ Requires Android 8.0 or newer. This is an Android app, so it won't run on an iPh
 
 ## Notes
 
-- It's built for the PBV4NX and should work with other Pit Boss vertical smokers that use the same controller. On other Pit Boss grills, some features may not work.
+- Supported models: PBV4NX (130–420°F, 3 probes) and PB1285KC (Smoke 180°F – High 500°F, 2 probes, light switch). Pick yours when you choose the smoker, or later in Settings. Other Pit Boss models may connect but aren't supported yet.
 - Use it at your own risk. It's a hobby project, provided as-is.
 - The smoker protocol code is based on the open-source [pytboss](https://github.com/dknowles2/pytboss) project (Apache License 2.0). See `NOTICE` and `LICENSE-pytboss.txt`.
