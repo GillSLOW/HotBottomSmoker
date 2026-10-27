@@ -21,8 +21,8 @@ Requires Android 8.0 or newer. This is an Android app, so it won't run on an iPh
 
 1. **Fully close the Pit Boss app**: swipe it away from recent apps. The smoker allows only one Bluetooth connection at a time.
 2. Turn the smoker on and stand near it.
-3. Open Hot Bottom Smoker, tap **Smoker…** and pick your smoker. It usually shows a ★ and a name starting with "PB".
-4. Tap **Start logging**. You can lock the phone now, because logging continues in the background.
+3. Open Hot Bottom Smoker, tap **Connect** and pick your smoker. It usually shows a ★ and a name starting with "PB".
+4. It connects and starts logging right away (temperatures and weather appear). You can lock the phone now, because logging continues in the background. **Disconnect** ends the cook.
 
 ## What it does
 
