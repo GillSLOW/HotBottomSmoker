@@ -36,7 +36,7 @@ Requires Android 8.0 or newer. This is an Android app, so it won't run on an iPh
 
 ## Reporting a problem
 
-In the app, go to **Settings → Troubleshooting → Send to developer (GitHub)**. It saves a debug report, then opens a new issue here with your phone, app version and smoker model filled in. Say what happened, attach the saved report, and tap **Create**. You'll need a free GitHub account. Issues are public, but the report blanks out passwords, location and most of the cloud ID.
+In the app, go to **Settings → Troubleshooting → Send to developer (GitHub)**. It copies a debug report to your clipboard and opens a new issue here. Say what happened, then **long-press in the text box and choose Paste**, and tap **Create**. Paste it rather than attaching a file, because pasted text is what the developer can read. You'll need a free GitHub account. Issues are public, but the report blanks out passwords, location and most of the cloud ID.
 
 ## Notes
 
