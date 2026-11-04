@@ -40,6 +40,7 @@ In the app, go to **Settings → Troubleshooting → Send to developer (GitHub)*
 
 ## Notes
 
-- Supported models: PBV4NX (130–420°F, 3 probes) and PB1285KC (Smoke 180°F – High 500°F, 2 probes, light switch). Pick yours when you choose the smoker, or later in Settings. Other Pit Boss models may connect but aren't supported yet.
+- Models: every Pit Boss and Louisiana Grills model in the Dansons catalog (140+, as published by [pytboss](https://github.com/dknowles2/pytboss)). Tested on real smokers: PBV4NX (130–420°F, 3 probes) and PB1285KC (Smoke 180°F – High 500°F, 2 probes, light). Pick yours when you choose the smoker, or later in Settings (Change model…). If yours isn't listed or you're not sure, choose "Not sure": the app reads the control board from the smoker's Bluetooth name and works out the temperature range from the controller as you cook. Other models haven't been tested on real hardware yet, so please send a debug report from your first cook.
+- Choosing the smoker: long-press Connect. The list is a live Bluetooth scan: a smoker appears as soon as it's plugged in, and yours is marked ✓.
 - Use it at your own risk. It's a hobby project, provided as-is.
 - The smoker protocol code is based on the open-source [pytboss](https://github.com/dknowles2/pytboss) project (Apache License 2.0). See `NOTICE` and `LICENSE-pytboss.txt`.
